@@ -22,7 +22,7 @@ const Buttons: React.FunctionComponent = () => {
         {' '}
       </Button>
 
-      <Typography variant="h3" component="h5">
+      <Typography variant="h3" component="h5" tabIndex={0}>
         Villkor:
       </Typography>
       <Typography variant="body2" style={{ color: '#AAAAAA' }}>

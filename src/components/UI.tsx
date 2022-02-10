@@ -1,10 +1,12 @@
 import React from 'react';
 import { Typography, TextField, Grid } from '@mui/material/';
 
-import Buttons from './Buttons/Buttons';
-import ContactField from './ContactField/ContactField';
-import Comments from './Comments/Comment';
-import Text from './Text/Text';
+import Buttons from './buttons/Buttons';
+import ContactField from './contactField/ContactField';
+import Comments from './comments/Comment';
+import Text from './text/Text';
+import ImageBox from './imageBox/ImageBox';
+import Footer from './footer/Footer';
 
 const UI: React.FunctionComponent = () => {
   return (
@@ -14,6 +16,8 @@ const UI: React.FunctionComponent = () => {
       <Comments />
       <Text />
       <Buttons />
+      <ImageBox />
+      <Footer />
     </div>
   );
 };
