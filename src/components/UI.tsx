@@ -1,5 +1,5 @@
 import React from 'react';
-import { Typography, TextField, Grid } from '@mui/material/';
+import { Typography } from '@mui/material/';
 
 import Buttons from './buttons/Buttons';
 import ContactField from './contactField/ContactField';
@@ -13,8 +13,8 @@ const UI: React.FunctionComponent = () => {
     <div>
       <Typography variant="h1">Isaks otrevliga hemsida</Typography>
       <ContactField />
-      <Comments />
       <Text />
+      <Comments />
       <Buttons />
       <ImageBox />
       <Footer />

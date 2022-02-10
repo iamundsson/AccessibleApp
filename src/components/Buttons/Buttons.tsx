@@ -3,8 +3,8 @@ import { Button, Typography } from '@mui/material/';
 
 const Buttons: React.FunctionComponent = () => {
   return (
-    <div>
-      <Typography>Godkänner du villkoren?</Typography>
+    <div style={{ marginTop: '100px' }}>
+      <div>Godkänner du <strong>villkoren</strong>?</div>
       <Button
         variant="contained"
         color="error"
