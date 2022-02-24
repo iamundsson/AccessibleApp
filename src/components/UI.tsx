@@ -1,10 +1,10 @@
 import React from 'react';
 import { Typography } from '@mui/material/';
 
-import Buttons from './buttons/Buttons';
-import ContactField from './contactField/ContactField';
-import Comments from './comments/Comment';
-import Text from './text/Text';
+import Buttons from './Buttons/Buttons';
+import ContactField from './ContactField/ContactField';
+import Comments from './Comments/Comment';
+import Text from './Text/Text';
 import ImageBox from './imageBox/ImageBox';
 import Footer from './footer/Footer';
 
